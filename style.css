@@ -10,10 +10,13 @@ header {
     height: 400px;
     background-color: #d0d1d3;
     background: url('https://images.unsplash.com/photo-1541613569553-332a2574a508?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=987&q=80');
-    h1 {
-    color: white;
+}
+
+h1 {
+    color: cornsilk;
     font-size: 4rem;
     font-family: 'Times New Roman', Times, serif;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
 }
 
 footer {
@@ -79,12 +82,18 @@ article img {
 
 article:nth-child(1)::before {
     content: "New";
+    color: red;
 }
 
 article:nth-child(2)::before {
     content: "New";
+    color: red;
 }
 
 article:nth-child(even) {
     background-color: #f4f5f8;
+}
+
+h1{
+    box-shadow: #0085a1;
 }
