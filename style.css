@@ -13,10 +13,11 @@ header {
 }
 
 h1 {
-    color: cornsilk;
+    color: whitesmoke;
     font-size: 4rem;
     font-family: 'Times New Roman', Times, serif;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 footer {
